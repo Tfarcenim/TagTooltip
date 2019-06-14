@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.tfar.tagtooltip;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.Item;
@@ -22,7 +22,7 @@ public class TagTooltip {
   public static final String MODID = "tagtooltip";
 
   @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
-  public static class TooltipEventt {
+  public static class TooltipEvent {
     @SubscribeEvent
     public static void onTooltip(ItemTooltipEvent e) {
 
